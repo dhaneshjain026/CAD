@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    text-align: center;
+  }
+  
+  /* Header */
+  .header {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    background: linear-gradient(135deg, #0056b3, #007BFF);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Main Viewer Container */
+  .viewer-container {
+    width: 100vw;  
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0056b3;
+  }
+  
+  /* Canvas for Three.js */
+  canvas {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Upload Section */
+  .upload-container {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    width: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .upload-container h2 {
+    color: #007BFF;
+    margin-bottom: 15px;
+  }
+  
+  /* Buttons */
+  button {
+    background: linear-gradient(135deg, #0056b3, #007BFF);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #003d80, #0056b3);
+  }
+  
+  /* File Input */
+  input[type="file"] {
+    display: none;
+  }
+  
+  .file-label {
+    background: white;
+    color: #007BFF;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .file-label:hover {
+    background: #007BFF;
+    color: white;
+  }
+  
+  /* Footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: #004080;
+    color: white;
+    font-size: 14px;
+  }
+  
